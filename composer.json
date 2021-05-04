@@ -1,0 +1,20 @@
+{
+  "name": "underpin/option-loader",
+  "description": "Option loader for Underpin",
+  "type": "library",
+  "license": "GPL 2.0",
+  "authors": [
+    {
+      "name": "Alex Standiford",
+      "email": "a@alexstandiford.com"
+    }
+  ],
+  "require": {
+    "underpin/underpin": "1.2.*"
+  },
+  "autoload": {
+    "files": [
+      "options.php"
+    ]
+  }
+}
