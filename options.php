@@ -13,7 +13,7 @@ Underpin::attach( 'setup', new \Underpin\Factories\Observer( 'options', [
 	require_once( plugin_dir_path( __FILE__ ) . 'lib/loaders/Options.php' );
 	require_once( plugin_dir_path( __FILE__ ) . 'lib/factories/Option_Instance.php' );
 	$plugin->loaders()->add( 'options', [
-		'registry' => 'Underpin_Options\Loaders\Options',
+		'class' => 'Underpin_Options\Loaders\Options',
 	] );
 	},
 ] ) );
