@@ -9,7 +9,7 @@
 
 namespace Underpin_Options\Loaders;
 
-use Underpin\Abstracts\Registries\Loader_Registry;
+use Underpin\Abstracts\Registries\Object_Registry;
 use Underpin_Options\Abstracts\Option;
 use WP_Error;
 
@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @since   1.0.0
  * @package Underpin\Registries\Loaders
  */
-class Options extends Loader_Registry {
+class Options extends Object_Registry {
 
 	/**
 	 * @inheritDoc
