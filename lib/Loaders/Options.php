@@ -7,10 +7,10 @@
  */
 
 
-namespace Underpin_Options\Loaders;
+namespace Underpin\Options\Loaders;
 
 use Underpin\Abstracts\Registries\Object_Registry;
-use Underpin_Options\Abstracts\Option;
+use Underpin\Options\Abstracts\Option;
 use WP_Error;
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -29,9 +29,9 @@ class Options extends Object_Registry {
 	/**
 	 * @inheritDoc
 	 */
-	protected $abstraction_class = 'Underpin_Options\Abstracts\Option';
+	protected $abstraction_class = 'Underpin\Options\Abstracts\Option';
 
-	protected $default_factory = 'Underpin_Options\Factories\Option_Instance';
+	protected $default_factory = 'Underpin\Options\Factories\Option_Instance';
 
 	/**
 	 * @inheritDoc
