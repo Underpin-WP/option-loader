@@ -1,10 +1,10 @@
 <?php
 
-namespace Underpin_Options\Factories;
+namespace Underpin\Options\Factories;
 
 
 use Underpin\Traits\Instance_Setter;
-use Underpin_Options\Abstracts\Option;
+use Underpin\Options\Abstracts\Option;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;

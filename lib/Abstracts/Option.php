@@ -7,7 +7,7 @@
  */
 
 
-namespace Underpin_Options\Abstracts;
+namespace Underpin\Options\Abstracts;
 
 use Underpin\Traits\Feature_Extension;
 use WP_Error;
